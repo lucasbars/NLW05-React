@@ -9,7 +9,7 @@ import 'rc-slider/assets/index.css';
 export function Player() {
   const audioRef = useRef<HTMLAudioElement>(null);
 
-  const {episodeList, currentEpisodeIndex, isPlaying, togglePlay ,setPlayingState, playNext, playPrevious, hasNext, hasPrevious} = usePlayer();
+  const {episodeList, currentEpisodeIndex, isPlaying, isLooping, togglePlay, toggleLoop ,setPlayingState, playNext, playPrevious, hasNext, hasPrevious} = usePlayer();
 
   const episode = episodeList[currentEpisodeIndex];
 
@@ -60,7 +60,7 @@ export function Player() {
         </div>
 
         {episode && (
-          <audio src={episode.url} ref={audioRef} autoPlay onPlay={() => setPlayingState(true)} onPause={() => setPlayingState(false)} />
+          <audio src={episode.url} ref={audioRef} autoPlay loop={isLooping} onPlay={() => setPlayingState(true)} onPause={() => setPlayingState(false)} />
         )}
 
         <div className={styles.buttons}>
@@ -82,7 +82,7 @@ export function Player() {
             <img src="/play-next.svg" alt="Tocar proxima" />
           </button>
 
-          <button type="button" disabled={!episode}>
+          <button type="button" disabled={!episode} onClick={toggleLoop} className={isLooping ? styles.isActive : ''}>
             <img src="/repeat.svg" alt="Repetir" />
           </button>
 
