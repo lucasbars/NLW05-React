@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next';
 import Image from 'next/image';
+import Head from 'next/head';
 import Link from 'next/link';
 import { usePlayer } from '../contexts/PlayerContext';
 import { api } from '../services/api';
@@ -35,6 +36,9 @@ export default function Home({ latesEpisodes, allEpisodes }: HomeProps) {
 
   return (
     <div className={styles.homepage}>
+      <Head>
+        <title> Home | Podcaster </title>
+      </Head>
       <section className={styles.latesEpisodes}>
         <h2>Últimos lançamentos</h2>
 

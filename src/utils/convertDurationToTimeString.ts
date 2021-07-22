@@ -8,3 +8,4 @@ export function convertDurationToTimeString(duration: number) {
 
   return timeString;
 }
+
