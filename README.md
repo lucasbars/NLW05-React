@@ -37,7 +37,7 @@ Este é um projeto desenvolvido durante a Next Level Week #05, realizada pela [@
 
 ## 🔖 Layout
 
-Nos links abaixo você encontra o layout do projeto web  Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
+Nos links abaixo você encontra o layout do projeto web. Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
 
 - [Layout Web](https://www.figma.com/file/5KchzYko8NeeV0suqrSi6x/Podcastr-(Copy)?node-id=199599%3A1028) 
 
