@@ -9,10 +9,10 @@
 </p>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/lucasbars/NLW05React">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/lucasbars/NLW05React">
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/lucasbars/NLW05React">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lucasbars/NLW05React">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/lucasbars/NLW05-React">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/lucasbars/NLW05-React">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/lucasbars/NLW05-React">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lucasbars/NLW05-React">
 </p>
 
 <br>
